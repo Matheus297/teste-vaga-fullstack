@@ -25,6 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Desafio Contrato</title>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
